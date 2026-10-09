@@ -1,0 +1,121 @@
+/* Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap"; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Fonte com serifa igual à imagem */
+}
+
+b {
+  color: #ff7315;
+}
+
+.grupo-integrantes {
+  margin: 5%;
+}
+
+.cards {
+    background-color: ;
+    padding-top: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fundo-card {
+  background-color: peru;
+}
+
+.card-integrante {
+  background-color: orange;
+  height: 410px;
+  width: 210px;
+  align-items: center;
+}
+
+.foto-integrante {
+  height: 300px;
+  width: 200px;
+}
+
+#cargo {
+  text-decoration: bold;
+}
+
+
+
+#rodape {
+    color: black;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    margin: 40% auto auto auto;
+    background-color: 
+}
+
+.flexbox {
+    width: 70%;
+    margin: auto 15% auto 15%;
+    padding-top: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: ;
+}
+
+hr {
+    margin: 4% 2% 1% 2%;
+}
+
+.copyright {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    width: 30%;
+    margin: 3% 35% auto 35%;
+}
+
+.parents {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 0% 5% 0%;
+    margin-bottom: 0px;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 5px;
+    margin-bottom: 5%;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.child {
+    height: 30%;
+    width: 30%;
+    background-color: #ff7315;
+    border: 2px solid;
+    border-color: black;
+    padding: 5%;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+

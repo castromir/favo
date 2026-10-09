@@ -1,0 +1,219 @@
+/* Reset básico para limpar margens padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Fonte com serifa igual à imagem */
+}
+
+/* Container externo com o fundo laranja de fundo */
+.navbar-container {
+    background-color: #ff914d; /* Tom de laranja do fundo */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* A barra cinza clara */
+.navbar {
+    background-color: #dbdbdb; /* Tom cinza claro */
+    padding: 10px 20px;
+    border-radius: 25px; /* Bordas bem arredondadas */
+    display: flex;
+    gap: 15px; /* Espaçamento entre os botões */
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Limita a largura máxima da barra */
+    justify-content: space-around; /* Distribui os botões uniformemente */
+}
+
+/* Estilo geral dos botões */
+.nav-button {
+    background-color: #ff7315; /* Laranja forte dos botões */
+    color: #ffffff; /* Texto branco */
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 50px; /* Formato de pílula arredondada */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* O primeiro botão (Início) tem um tom ligeiramente diferente/escurecido na imagem original */
+.nav-button.active {
+    background-color: #f06a0f; 
+    color: #d1cbc4; /* Texto ligeiramente opaco conforme a imagem */
+}
+
+/* Efeito ao passar o mouse para melhorar a experiência do usuário */
+.nav-button:hover {
+    background-color: #e05600;
+    transform: scale(1.05); /* Leve zoom ao passar o mouse */
+}
+
+/* Container que agrupa as duas partes do logo */
+.logo-container {
+    display: flex;
+    flex-direction: column; /* Coloca 'magazine' embaixo de 'F.A.V.O.' */
+    align-items: center;    /* Centraliza o texto internamente */
+    justify-content: center;
+    
+    /* Espaçamentos: 40px acima (afasta da navbar) e 50px abaixo (afasta do conteúdo) */
+    margin: 100px auto 100px auto; 
+    
+    text-align: center;     /* Garante que o texto fique centralizado */
+    width: 100%;            /* Ocupa a largura total para poder centralizar na página */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilização da parte principal: F.A.V.O. */
+.logo-main {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    color: #ff7315; /* Cor Laranja (o mesmo tom usado na navbar do exercício anterior) */
+    margin: 0;
+}
+
+/* Estilização da parte secundária: magazine */
+.logo-sub {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: 6px;
+    color: #555555; /* Mantém o cinza escuro para dar contraste com o laranja */
+    margin-top: 8px;
+}
+
+    
+ /* Determinação do tamanho da capa */   
+.foto-capa-revista {
+    background-color: transparent;
+    margin: auto 5% 5% 5%;
+    width: 90%;
+    height: 35%;
+    
+}
+
+.pagina-importante {
+    background-color: #ff7315;
+    margin: 5% 0% 0% 0%;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.btn-button {
+    margin: auto 30% 0px 30%;
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff7315;
+    transition: background-color 0.3s ease;
+}
+
+.btn-button:hover {
+    background-color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+b {
+    color: #ff7315;
+}
+
+#navbar {
+    margin: auto;
+}
+
+.grupo {
+    margin: 5%;
+}
+
+.foto {
+    height: 350px;
+    width: 350px;
+}
+
+#explicacao {
+    margin: auto 5% auto 5%;
+    color: whitesmoke;
+}
+
+#campo-download {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+}
+
+.text {
+    background-color: #ff7315;
+    color: whitesmoke;
+}
+
+
+.vazio {
+    background-color: #ff7315;
+    width: 100%;
+    height: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-gap: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.descricao-edicao {
+    color: black;
+    text-align: justify;
+    margin: 5%;
+}
+
+.agradecimentos {
+    color: black;
+    text-align: justify;
+    margin: 20% 5% 20% 5%;
+}
+
+#rodape {
+    color: black;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    margin: 0%;
+}
+
+.link-rodape {
+    color: #ff7315;
+}
+
+.flexbox {
+    width: 70%;
+    margin: auto 15% auto 15%;
+    padding-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    margin: 4% 2% 1% 2%;
+}
+
+.copyright {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    width: 30%;
+    margin: auto 35% auto 35%;
+}

@@ -1,0 +1,62 @@
+/* Reset básico para limpar margens padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /* Fonte com serifa igual à imagem */
+}
+
+.caixa-email {
+  background-color: #ff7315;
+  color: whitesmoke;
+  width: 90%;
+  height: 300px;
+  margin: 10% 5% 20% 5%;
+  text-align: center;
+  padding: 5%;
+}
+
+h5 {
+  font-size: 35px;
+}
+
+a {
+  color: #ff7315;
+}
+
+
+#rodape {
+    color: black;
+    height: 100px;
+    width: auto;
+    padding-top: 20px;
+    margin: 40% auto auto auto;
+    background-color: 
+}
+
+.link-rodape {
+    color: #ff7315;
+}
+
+
+.flexbox {
+    width: 60%;
+    margin: auto auto auto auto;
+    padding-top: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: ;
+}
+
+hr {
+    margin: 4% 2% 1% 2%;
+}
+
+.copyright {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    width: 30%;
+    margin: 3% 35% auto 35%;
+}
