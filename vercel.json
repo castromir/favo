@@ -1,5 +1,11 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/codigo/index.html" }
+  "redirects": [
+    { "source": "/", "destination": "/codigo/index.html", "permanent": false },
+    { "source": "/index.html", "destination": "/codigo/index.html", "permanent": false },
+    { "source": "/dowload.html", "destination": "/codigo/dowload.html", "permanent": false },
+    { "source": "/equipe.html", "destination": "/codigo/equipe.html", "permanent": false },
+    { "source": "/historia.html", "destination": "/codigo/historia.html", "permanent": false },
+    { "source": "/revista.html", "destination": "/codigo/revista.html", "permanent": false },
+    { "source": "/pag-email.html", "destination": "/codigo/pag-email.html", "permanent": false }
   ]
 }
